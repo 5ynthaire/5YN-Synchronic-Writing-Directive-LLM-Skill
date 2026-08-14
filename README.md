@@ -4,7 +4,13 @@ A framework and skill for writing software artifacts (READMEs, design docs, API 
 
 The artifact states what the system *is* and *does*. Justifications refer only to current consequences, invariants, and failure modes. Temporal narrative, change history, and decision chronology are excluded from the primary text.
 
-## Synchronic vs Diachronic
+## Issue Definition
+
+Software documentation in active repositories exists in two states: operational truth (interfaces, signatures, invariants) and historical sediment (deprecation notices, migration narratives, decision rationales).
+
+For human readers, this sediment creates cognitive load; for LLM-based agents, it introduces deterministic ambiguity. When an inference engine processes a mixed-temporal artifact, it cannot distinguish between a retired constraint and an active invariant without external grounding. The result is non-deterministic code generation and increased token overhead, as the context window is diluted by obsolete states.
+
+## Synchronic vs Diachronic Framework
 
 - **Synchronic** — a cross-section of the system as it exists now. Structure and rules are treated as present truth. Relations and consequences that hold *now* supply the justification.
 - **Diachronic** — the evolutionary path: “we used to… then… therefore…”, changelogs embedded in the description, version stories, decision history.
