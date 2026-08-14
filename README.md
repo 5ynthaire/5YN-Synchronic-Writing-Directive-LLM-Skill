@@ -105,4 +105,11 @@ Process tutorials, Architecture Decision Records, and explicit historical record
 
 ## License
 
-[MIT](LICENSE)
+Framework and Skill released under the [MIT License](LICENSE). Free to use, modify, and distribute.
+
+## About
+
+**X:** [@5ynthaire](https://x.com/5ynthaire)  
+**GitHub:** [https://github.com/5ynthaire](https://github.com/5ynthaire)  
+**Mission**: Transcending creative limits through human-AI synergy  
+**Attribution:** Framework developed through collaborative with Grok 4.5 by SpaceX (no affiliation).
